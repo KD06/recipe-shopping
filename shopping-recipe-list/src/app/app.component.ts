@@ -7,9 +7,4 @@
 })
 export class AppComponent {
   title = 'shopping-recipe-list';
-  loadedFeature = 'recipe';
-
-  onNavigate(feature: string){
-    this.loadedFeature = feature;
-  }
 }
